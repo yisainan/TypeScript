@@ -6,3 +6,7 @@ var binaryLiteral = 10;
 var octalLiteral = 484;
 var notANumber = NaN;
 var infinityNumber = Infinity;
+// 1
+var a1 = 1;
+var a2 = 1;
+var a3 = 0xf00d;
