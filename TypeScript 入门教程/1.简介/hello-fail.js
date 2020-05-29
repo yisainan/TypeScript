@@ -4,8 +4,14 @@
 // let user = [0, 1, 2];
 // console.log(sayHello(user));
 // 1
-function test01(param) {
-    return '第一次练习，' + param;
+// function test01(param: string) {
+//     return '第一次练习，' + param
+// }
+// let a = 666
+// console.log(test01(a))
+// 2
+function test02(params) {
+    return params;
 }
-var a = 666;
-console.log(test01(a));
+var a = '111';
+console.log(test02(a));

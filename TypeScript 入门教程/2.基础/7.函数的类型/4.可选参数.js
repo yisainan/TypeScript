@@ -7,15 +7,14 @@
 // }
 // let tomcat = buildName('Tom', 'Cat');
 // let tom = buildName('Tom');
-
-// 1 第二个参数前不加? 会报错 Expected 2 arguments, but got 1.
-function test01 (params1: string, params2: string) {
+// 1
+function test01(params1, params2) {
     if (params2) {
-        return params1 + params2
-    } else {
-        return params1
+        return params1 + params2;
+    }
+    else {
+        return params1;
     }
 }
-console.log(test01('abc', 'ddd'))
-console.log(test01('abc'))
-
+console.log(test01('abc', 'ddd'));
+console.log(test01('abc'));
